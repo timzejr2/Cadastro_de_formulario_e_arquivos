@@ -1,0 +1,56 @@
+.conteiner {
+    min-height: 70vh;
+    margin-top: 20px;
+}
+
+.formArea {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 500px;
+    text-align: left;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 500px;
+}
+
+.textForm {
+    min-height: 200px;
+}
+
+.fileAlign {
+    text-align: center;
+}
+
+.fileArea > input {
+    background-color: whitesmoke;
+    border: dashed 1px black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+.upload {
+    font-weight: bold;
+    color: #28a745;
+    margin-left: 15px;
+    line-height: 36px;
+}
+
+

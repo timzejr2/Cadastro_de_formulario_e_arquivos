@@ -1,0 +1,25 @@
+.card {
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cardTitle {
+    color: #000000;
+    font-size: large;
+    text-align: left;
+}
+
+.cardUserPost {
+    text-align: left;
+}

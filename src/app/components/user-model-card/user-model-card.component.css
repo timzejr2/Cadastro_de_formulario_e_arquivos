@@ -1,0 +1,50 @@
+.card {
+    max-width: 480px;
+    height: 150px;
+    margin-bottom: 8px;
+  }
+
+.content {
+  height: 80px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding: 10px;
+  display: inline-block;
+}
+
+.actions {
+  margin: 10px;
+  margin-top: 20px;
+  display: block;
+}
+
+.buttonPosition {
+  margin-right: 10px;
+}
+
+
+
+.button-row {
+  display: table-cell;
+  width: 400px;
+}
+
+.button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: last baseline;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+}

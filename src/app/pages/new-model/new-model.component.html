@@ -1,0 +1,39 @@
+<div class="conteiner">
+    <div class="formArea">
+        <h2>{{tituloFormulario}}</h2>
+        <form [formGroup]="formulario" (ngSubmit)="EnviarFormulario()">
+            <mat-form-field class="form" appearance="outline">
+                <mat-label>Nome da maquete</mat-label>
+                <input matInput id="model-name" formControlName="nomeMaquete"/>
+            </mat-form-field>
+            <mat-form-field class="form" appearance="outline">
+                <mat-label>Descrição da maquete</mat-label>
+                <textarea matInput class="textForm" id="description" formControlName="descricaoMaquete"></textarea>
+            </mat-form-field>
+            <mat-checkbox class="example-margin" color="primary" id="active-model" formControlName="maqueteAtiva">Publicar maquete nesta página.</mat-checkbox>
+            <br>
+            <br>
+            <hr>
+            <div class="fileAlign">
+                <h3><strong>Selecione a imagem de capa da maquete:</strong></h3>
+                <div class="fileArea">
+                    <label for="myfile">Selecione a imagem: </label>
+                    <input type="file" id="myfile" (change)="inputPhoto($event)" name="file">
+                </div>
+            </div>
+            <br>
+            <hr>
+            <!--
+                <div class="fileAlign">
+                    <h3><strong>Selecione os 4 arquivos da pasta build da sua maquete:</strong></h3>
+                    <form action="#" class="fileArea">
+                        <label for="myfile">Selecione os arquivos: </label>
+                        <input type="file" id="myfile" name="myfile" multiple><br><br>
+                    </form>
+                </div>
+            -->
+            <hr>
+            <button mat-raised-button color="primary" type="submit"><mat-icon>add</mat-icon>Adicionar Maquete</button>
+        </form>
+    </div>
+</div>

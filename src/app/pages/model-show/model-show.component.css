@@ -1,0 +1,15 @@
+.modelPosition {
+    text-align: center;
+}
+
+.description {
+    width: 900px;
+    margin: auto;
+}
+
+.frame{
+    max-width: 1000px;
+    max-height: 650px;
+}
+
+
